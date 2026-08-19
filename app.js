@@ -1,4 +1,9 @@
-﻿const services = [
+const responsiveStylesheet = document.createElement("link");
+responsiveStylesheet.rel = "stylesheet";
+responsiveStylesheet.href = "responsive.css";
+document.head.appendChild(responsiveStylesheet);
+
+const services = [
     { title: "Piedra Taco de Santiago", text: "Material tradicional para fachadas, muros y exteriores con un acabado sólido y auténtico." },
     { title: "Restauración de piedra", text: "Recuperamos fachadas y elementos antiguos, devolviéndoles funcionalidad y presencia." },
     { title: "Encintados y revestimientos", text: "Soluciones para mejorar la apariencia y la protección de superficies de exterior." },
